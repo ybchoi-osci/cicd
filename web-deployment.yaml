@@ -4,8 +4,12 @@ metadata:
   name: roar-web
   labels:
     name: roar-web
+    app: roar-web
   namespace: roar
 spec:
+  selector: 
+    matchLabels:
+      app: roar-web
   replicas: 1
   template:
     metadata:
