@@ -4,8 +4,12 @@ metadata:
   name: mysql
   labels:
     name: mysql
+    app: roar-db 
   namespace: roar
 spec:
+  selector:
+    matchLabels:
+      app: roar-db
   replicas: 1
   template:
     metadata:
