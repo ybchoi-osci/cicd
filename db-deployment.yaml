@@ -15,6 +15,7 @@ spec:
     metadata:
       labels:
         name: mysql
+        app: roar-db
     spec:
       containers:
       - name: mysql
