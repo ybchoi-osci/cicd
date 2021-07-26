@@ -6,7 +6,7 @@ metadata:
     name: roar-web
   namespace: roar
 spec:
-  type: NodePort
+  type: Loadbalancer
   ports:
   - port: 8089
     targetPort: 8080
