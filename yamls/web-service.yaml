@@ -6,10 +6,9 @@ metadata:
     name: roar-web
   namespace: default
 spec:
-  type: Loadbalancer
+  type: LoadBalancer
   ports:
   - port: 8089
     targetPort: 8080
-    nodePort: 31790
   selector:
     name: roar-web
