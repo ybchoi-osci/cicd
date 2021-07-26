@@ -5,7 +5,7 @@ metadata:
   labels:
     name: roar-web
     app: roar-web
-  namespace: roar
+  namespace: default
 spec:
   selector:
     matchLabels:

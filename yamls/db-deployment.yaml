@@ -5,7 +5,7 @@ metadata:
   labels:
     name: mysql
     app: roar-db 
-  namespace: roar
+  namespace: default
 spec:
   selector:
     matchLabels:

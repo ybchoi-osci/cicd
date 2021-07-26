@@ -4,7 +4,7 @@ metadata:
   name: mysql
   labels:
     name: mysql
-  namespace: roar
+  namespace: default
 spec:
   ports:
   - name: "mysql"

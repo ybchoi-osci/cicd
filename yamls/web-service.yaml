@@ -4,7 +4,7 @@ metadata:
   name: roar-web
   labels:
     name: roar-web
-  namespace: roar
+  namespace: default
 spec:
   type: Loadbalancer
   ports:
