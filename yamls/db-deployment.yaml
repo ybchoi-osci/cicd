@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: quay.io/bclaster/roar-db:1.0.2
+        image: 172.20.7.100:5000/bclaster/roar-db:1.0.2
         ports:
         - name: mysql
           containerPort: 3306
