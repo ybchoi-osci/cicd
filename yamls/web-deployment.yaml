@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: roar-web
-        image: quay.io/bclaster/roar-web:1.0.1
+        image: 172.20.7.100:5000/bclaster/roar-web:1.0.1
         ports:
         - name: web
           containerPort: 8080
