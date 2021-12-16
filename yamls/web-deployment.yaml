@@ -10,7 +10,7 @@ spec:
   selector:
     matchLabels:
       app: roar-web  
-  replicas: 5
+  replicas: 1
   template:
     metadata:
       labels:
